@@ -1,0 +1,203 @@
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #eaeaea;
+    padding: 0 20px;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 100px; /* Ajusta el tamaño de la imagen según necesites */
+    width: auto;  /* Mantiene la proporción para que no se deforme */
+    object-fit: contain;
+}
+
+header section:nth-child(2){
+    display: flex;
+    gap: 12px
+}
+
+header a{
+    text-decoration: none;
+    color: #000;
+}
+
+header a:hover{
+    color: orange;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    background-image: url(/imagenes/An-extensive-collection-of-best-Pokemon-wallpapers-in-HD-for-desktop-use.jpg);
+    font-family: "Ubuntu", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsla(0, 0%, 45%, 0.8);
+    background-blend-mode: multiply;
+}
+
+footer {
+    background-color: white;
+    color: darkgray;
+    text-align: center;
+    padding: 12px 0;
+}
+
+/* Contenedor principal que centra la tarjeta */
+.contenedor {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.caluga {
+    width: 750px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.info-banner {
+    flex: 1;
+}
+
+.info-banner h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.25;
+    margin-bottom: 12px;
+}
+
+.info-banner p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Contenedor de la imagen a la derecha */
+.imagen-banner {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Fuerza la imagen hacia la derecha */
+}
+
+.imagen-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    display: block;
+    background-color: white;
+}
+
+.contenedor2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.caluga2{
+    width: 220;
+    height: 280px;
+    border: #000 solid;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.caluga2 img {
+    width: 100%;          /* Ocupa todo el ancho disponible del box */
+    height: 80%;         /* Ocupa toda la altura disponible del box */
+    object-fit: contain;  /* ¡La magia aquí! Ajusta la imagen entera sin recortarla ni deformarla */
+    display: block;
+}
+
+.precio {
+    height: 20%;            /* El precio ocupa el espacio restante abajo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: sans-serif;
+  
+}
+
+.contenedor_carta{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding-top:100px ;
+    margin-bottom: 100px;
+    
+}
+
+.caluga_carta{
+
+    width: 500px;
+    height: auto;
+    border: #000 solid;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+.caluga_carta img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    display: block;
+}
+
+.caluga_carta_info{
+
+    width: 700px;
+    height: auto;
+    border: #000 solid;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+.info-carta h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.25;
+    margin-bottom: 12px;
+}
+
+.info-carta p {
+    color: #000;
+    font-size: 20px;
+}
