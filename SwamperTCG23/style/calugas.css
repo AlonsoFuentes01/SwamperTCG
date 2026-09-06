@@ -1,0 +1,217 @@
+.contenedor-banner {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.caluga-banner {
+    width: 750px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.info-banner {
+    flex: 1;
+}
+
+.info-banner h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.25;
+    margin-bottom: 12px;
+}
+
+.info-banner p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Contenedor de la imagen a la derecha */
+.imagen-banner {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Fuerza la imagen hacia la derecha */
+}
+
+.imagen-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    display: block;
+    background-color: white;
+}
+
+.contenedor-carta-catalogo{
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    gap: 50px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contenedor-inicio {
+    grid-template-columns: repeat(3, 220px);
+}
+
+.caluga-carta-catalogo{
+    width: 200px;
+    height: 280px;
+    border: #000 solid;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.caluga-carta-catalogo img {
+    width: 100%;          /* Ocupa todo el ancho disponible del box */
+    height: 100%;         /* Ocupa toda la altura disponible del box */
+    object-fit: contain;  /* ¡La magia aquí! Ajusta la imagen entera sin recortarla ni deformarla */
+    display: block;
+}
+
+.video-proyecto {
+    width: 770px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    display: block;
+}
+
+
+.contenedor_carta{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding-top:100px ;
+    margin-bottom: 100px;
+    
+}
+
+.caluga_carta{
+
+    width: 500px;
+    height: auto;
+    border: #000 solid;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+.caluga_carta img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    display: block;
+}
+
+.caluga_carta_info{
+
+    width: 700px;
+    height: auto;
+    border: #000 solid;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+.info-carta h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.25;
+    margin-bottom: 12px;
+}
+
+.info-carta p {
+    color: #000;
+    font-size: 20px;
+}
+
+.contenedor-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding-top:100px ;
+    margin-bottom: 100px;
+    
+}
+
+.caluga-info{
+
+    width: 700px;
+    height: auto;
+    border: #000 solid;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+.contenedor-info {
+    flex-wrap: nowrap;
+}
+
+.caluga-video {
+    width: 260px;
+}
+
+.contenedor-info .video-proyecto {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+.caluga-texto {
+    width: 500px;
+}
+
+.contenedor-info .video-proyecto {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.caluga-info h3,
+.caluga-info p {
+    text-align: center;
+}
+
+#centrar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.borde-red{
+    border: 2px solid red;
+}
